@@ -1,0 +1,104 @@
+[
+  {
+    "line": 7,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-05T12:38:40.860Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2477000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.testingproject.steps.Steps.setup() in file:/C:/WebUICucumberProject/target/test-classes/"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Login Successful",
+        "description": "",
+        "id": "login-functionality;login-successful;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 920000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.testingproject.steps.Steps.teardown() in file:/C:/WebUICucumberProject/target/test-classes/"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 354000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am on the herokuapp welcome page",
+            "match": {
+              "location": "com.testingproject.steps.Steps.i_am_on_the_herokuapp_welcome_page() in file:/C:/WebUICucumberProject/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 210000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on Form Authentication link",
+            "match": {
+              "location": "com.testingproject.steps.Steps.click_on_Form_Authentication_link() in file:/C:/WebUICucumberProject/target/test-classes/"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 285000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter valid \"tomsmith\" and \"SuperSecretPassword!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tomsmith\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"SuperSecretPassword!\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.testingproject.steps.Steps.i_enter_valid_credentials(String,String) in file:/C:/WebUICucumberProject/target/test-classes/"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 189000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should be taken to the secure area page",
+            "match": {
+              "location": "com.testingproject.steps.Steps.i_should_be_taken_to_the_secure_area_page() in file:/C:/WebUICucumberProject/target/test-classes/"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "In order to access herokuapp \nAs a valid user with valid credentials\nI want to login successfully",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login.feature",
+    "tags": []
+  }
+]
